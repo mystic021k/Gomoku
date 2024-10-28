@@ -107,9 +107,9 @@ void Gomoku::checkResult()
         msgBox.setText(QString::fromUtf8("白棋胜利　"));
         ui.statusBar->showMessage(QString::fromUtf8("白棋胜利"));
     }
+    isFinished = true;
     msgBox.exec();
     changeButtonState(true);
-    isFinished = true;
 }
 
 void Gomoku::playerSetPiece(QPoint* pos)
