@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/Gomoku"/>
+    <qresource prefix="/icon">
+        <file>png/black.png</file>
+        <file>png/white.png</file>
+        <file>png/duel.png</file>
+        <file>png/help.png</file>
+        <file>png/about.png</file>
+    </qresource>
+</RCC>
