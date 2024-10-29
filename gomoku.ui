@@ -130,7 +130,7 @@
   <customwidget>
    <class>QGomokuView</class>
    <extends>QGraphicsView</extends>
-   <header location="global">qgomokuview.h</header>
+   <header>qgomokuview.h</header>
   </customwidget>
  </customwidgets>
  <resources>

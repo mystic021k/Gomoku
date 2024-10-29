@@ -25,8 +25,8 @@ public slots:
     void playerTakeBlack();
     void playerTakeWhite();
     void playerToPlayer();
-    void ShowAbout();
-    void ShowHelp();
+    void showAbout();
+    void showHelp();
 private:
     Ui::GomokuClass ui;
     GomokuEngine* engine;
